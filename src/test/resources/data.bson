@@ -1,0 +1,5 @@
+[
+  { _id: "PS", name: "Pepperoni", size: "small", price: 19, createdOn: ISODate( "2021-03-13T08:14:30Z" ) },
+  { _id: "CS", name: "Cheese", size: "small", price: 12, createdOn : ISODate( "2021-03-13T11:21:39.736Z" ) },
+  { _id: "VM", name: "Vegan", size: "medium", price: 17, createdOn : ISODate( "2021-01-13T05:08:13Z" ) }
+]
