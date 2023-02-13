@@ -1,0 +1,14 @@
+{
+ "_id": "totalOrdersGroupedBySize",
+ "collection": "orders",
+ "description": "total order quantity grouped by pizza name",
+ "pipeline":
+  [
+    {
+       $match: { size: "${pizzaSize}" }
+    },
+    {
+       $group: { _id: "$name", totalQuantity: { $sum: "$quantity" } }
+    }
+ ]
+}
